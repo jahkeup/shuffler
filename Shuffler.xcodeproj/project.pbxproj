@@ -12,6 +12,9 @@
 		166601401A697881008110DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1666013F1A697881008110DB /* Images.xcassets */; };
 		166601431A697881008110DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 166601411A697881008110DB /* MainMenu.xib */; };
 		1666014F1A697881008110DB /* ShufflerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666014E1A697881008110DB /* ShufflerTests.m */; };
+		166601591A698758008110DB /* FileShuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 166601581A698758008110DB /* FileShuffle.m */; };
+		1666015D1A699E11008110DB /* Shuffler.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1666015C1A699E11008110DB /* Shuffler.icns */; };
+		1666015F1A69AE10008110DB /* License in Resources */ = {isa = PBXBuildFile; fileRef = 1666015E1A69AE10008110DB /* License */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 		166601481A697881008110DB /* ShufflerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShufflerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1666014D1A697881008110DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1666014E1A697881008110DB /* ShufflerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShufflerTests.m; sourceTree = "<group>"; };
+		166601581A698758008110DB /* FileShuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileShuffle.m; sourceTree = "<group>"; };
+		1666015B1A699183008110DB /* FileShuffle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileShuffle.h; sourceTree = "<group>"; };
+		1666015C1A699E11008110DB /* Shuffler.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Shuffler.icns; sourceTree = "<group>"; };
+		1666015E1A69AE10008110DB /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,9 @@
 				1666013F1A697881008110DB /* Images.xcassets */,
 				166601411A697881008110DB /* MainMenu.xib */,
 				166601381A697881008110DB /* Supporting Files */,
+				166601581A698758008110DB /* FileShuffle.m */,
+				1666015B1A699183008110DB /* FileShuffle.h */,
+				1666015E1A69AE10008110DB /* License */,
 			);
 			path = Shuffler;
 			sourceTree = "<group>";
@@ -88,6 +98,7 @@
 		166601381A697881008110DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1666015C1A699E11008110DB /* Shuffler.icns */,
 				166601391A697881008110DB /* Info.plist */,
 				1666013D1A697881008110DB /* main.m */,
 			);
@@ -191,7 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1666015D1A699E11008110DB /* Shuffler.icns in Resources */,
 				166601401A697881008110DB /* Images.xcassets in Resources */,
+				1666015F1A69AE10008110DB /* License in Resources */,
 				166601431A697881008110DB /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166601591A698758008110DB /* FileShuffle.m in Sources */,
 				1666013E1A697881008110DB /* main.m in Sources */,
 				1666013C1A697881008110DB /* AppDelegate.m in Sources */,
 			);
@@ -282,7 +296,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.9;
 			};
 			name = Debug;
 		};
@@ -317,7 +331,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.9;
 			};
 			name = Release;
 		};
@@ -398,6 +412,7 @@
 				166601541A697881008110DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		166601551A697881008110DB /* Build configuration list for PBXNativeTarget "ShufflerTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +421,7 @@
 				166601571A697881008110DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

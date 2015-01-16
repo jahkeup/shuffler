@@ -9,6 +9,14 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+@property (weak) IBOutlet NSTextField *sourceDirectoryField;
+@property (weak) IBOutlet NSTextField *destDirectoryField;
+@property (strong) NSURL* sourceDirectory;
+@property (strong) NSURL* destinationDirectory;
+
+- (IBAction)shuffleButton:(id)sender;
+- (IBAction)destSelect:(id)sender;
+- (IBAction)sourceSelect:(id)sender;
 
 
 @end
