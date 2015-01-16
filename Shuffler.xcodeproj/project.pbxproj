@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1666013C1A697881008110DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666013B1A697881008110DB /* AppDelegate.m */; };
+		1666013E1A697881008110DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666013D1A697881008110DB /* main.m */; };
+		166601401A697881008110DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1666013F1A697881008110DB /* Images.xcassets */; };
+		166601431A697881008110DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 166601411A697881008110DB /* MainMenu.xib */; };
+		1666014F1A697881008110DB /* ShufflerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666014E1A697881008110DB /* ShufflerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166601491A697881008110DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1666012D1A697881008110DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166601341A697881008110DB;
+			remoteInfo = Shuffler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166601351A697881008110DB /* Shuffler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shuffler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166601391A697881008110DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1666013A1A697881008110DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1666013B1A697881008110DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1666013D1A697881008110DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1666013F1A697881008110DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		166601421A697881008110DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		166601481A697881008110DB /* ShufflerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShufflerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1666014D1A697881008110DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1666014E1A697881008110DB /* ShufflerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShufflerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166601321A697881008110DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166601451A697881008110DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1666012C1A697881008110DB = {
+			isa = PBXGroup;
+			children = (
+				166601371A697881008110DB /* Shuffler */,
+				1666014B1A697881008110DB /* ShufflerTests */,
+				166601361A697881008110DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		166601361A697881008110DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166601351A697881008110DB /* Shuffler.app */,
+				166601481A697881008110DB /* ShufflerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166601371A697881008110DB /* Shuffler */ = {
+			isa = PBXGroup;
+			children = (
+				1666013A1A697881008110DB /* AppDelegate.h */,
+				1666013B1A697881008110DB /* AppDelegate.m */,
+				1666013F1A697881008110DB /* Images.xcassets */,
+				166601411A697881008110DB /* MainMenu.xib */,
+				166601381A697881008110DB /* Supporting Files */,
+			);
+			path = Shuffler;
+			sourceTree = "<group>";
+		};
+		166601381A697881008110DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				166601391A697881008110DB /* Info.plist */,
+				1666013D1A697881008110DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1666014B1A697881008110DB /* ShufflerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1666014E1A697881008110DB /* ShufflerTests.m */,
+				1666014C1A697881008110DB /* Supporting Files */,
+			);
+			path = ShufflerTests;
+			sourceTree = "<group>";
+		};
+		1666014C1A697881008110DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1666014D1A697881008110DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166601341A697881008110DB /* Shuffler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166601521A697881008110DB /* Build configuration list for PBXNativeTarget "Shuffler" */;
+			buildPhases = (
+				166601311A697881008110DB /* Sources */,
+				166601321A697881008110DB /* Frameworks */,
+				166601331A697881008110DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shuffler;
+			productName = Shuffler;
+			productReference = 166601351A697881008110DB /* Shuffler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		166601471A697881008110DB /* ShufflerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166601551A697881008110DB /* Build configuration list for PBXNativeTarget "ShufflerTests" */;
+			buildPhases = (
+				166601441A697881008110DB /* Sources */,
+				166601451A697881008110DB /* Frameworks */,
+				166601461A697881008110DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1666014A1A697881008110DB /* PBXTargetDependency */,
+			);
+			name = ShufflerTests;
+			productName = ShufflerTests;
+			productReference = 166601481A697881008110DB /* ShufflerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1666012D1A697881008110DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Jahkeup.com;
+				TargetAttributes = {
+					166601341A697881008110DB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					166601471A697881008110DB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 166601341A697881008110DB;
+					};
+				};
+			};
+			buildConfigurationList = 166601301A697881008110DB /* Build configuration list for PBXProject "Shuffler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1666012C1A697881008110DB;
+			productRefGroup = 166601361A697881008110DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166601341A697881008110DB /* Shuffler */,
+				166601471A697881008110DB /* ShufflerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166601331A697881008110DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166601401A697881008110DB /* Images.xcassets in Resources */,
+				166601431A697881008110DB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166601461A697881008110DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166601311A697881008110DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1666013E1A697881008110DB /* main.m in Sources */,
+				1666013C1A697881008110DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166601441A697881008110DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1666014F1A697881008110DB /* ShufflerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1666014A1A697881008110DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166601341A697881008110DB /* Shuffler */;
+			targetProxy = 166601491A697881008110DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		166601411A697881008110DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166601421A697881008110DB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		166601501A697881008110DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		166601511A697881008110DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		166601531A697881008110DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Shuffler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		166601541A697881008110DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Shuffler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		166601561A697881008110DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShufflerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shuffler.app/Contents/MacOS/Shuffler";
+			};
+			name = Debug;
+		};
+		166601571A697881008110DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShufflerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shuffler.app/Contents/MacOS/Shuffler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166601301A697881008110DB /* Build configuration list for PBXProject "Shuffler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166601501A697881008110DB /* Debug */,
+				166601511A697881008110DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166601521A697881008110DB /* Build configuration list for PBXNativeTarget "Shuffler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166601531A697881008110DB /* Debug */,
+				166601541A697881008110DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		166601551A697881008110DB /* Build configuration list for PBXNativeTarget "ShufflerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166601561A697881008110DB /* Debug */,
+				166601571A697881008110DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1666012D1A697881008110DB /* Project object */;
+}
